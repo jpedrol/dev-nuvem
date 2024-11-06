@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-in e Check-out de Passageiros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Check-in e Check-out de Passageiros</h1>
+        </header>
+
+        <section class="checkin-section">
+            <h2>Check-in</h2>
+            <form id="checkin-form">
+                <label for="passenger-name">Nome do Passageiro:</label>
+                <input type="text" id="passenger-name" required>
+                <br>
+
+                <label for="registration-number">Número de Matrícula:</label>
+                <input type="text" id="registration-number" required>
+                <br>
+
+                <label for="bus-number">Número do Ônibus:</label>
+                <input type="text" id="bus-number" required>
+                <br>
+
+                <button type="submit">Registrar Check-in</button>
+                <br>
+            </form>
+            <h3>Histórico de Check-ins</h3>
+            <ul id="checkin-list">
+            </ul>
+        </section>
+
+        <section class="checkout-section">
+            <h2>Check-out</h2>
+            <form id="checkout-form">
+                <label for="checkout-passenger-name">Nome do Passageiro:</label>
+                <input type="text" id="checkout-passenger-name" required>
+                <br>
+
+                <button type="submit">Registrar Check-out</button>
+                <br>
+            </form>
+            <h3>Histórico de Check-outs</h3>
+            <ul id="checkout-list">
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
