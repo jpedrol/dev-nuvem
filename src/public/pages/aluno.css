@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Faculty+Glyphic&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+
+
+#page{
+    width: 100vw ;
+    height: 100vh;
+    background-color: rgb(173, 219, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto' , sans-serif ;
+}
+
+.token{
+    display: flex;
+    flex-direction: column;
+    border: none solid black;
+    border-radius: 26px;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    background-color: rgb(95, 139, 139);
+    margin-top: 200px;
+} & .token-area{
+    display: flex;
+    width: 45%;
+    justify-content: space-evenly;
+    
+}& .tokenCamp{
+    width: 30px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background: #fff;
+    outline: none;
+    transition: border-color 0.3s;
+   
+    /* display: flex;
+    border: none solid black;
+    background-color: #ffffff;
+    border-radius: 7px;
+    width: 30px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.1rem; */
+} & .tokenCamp:focus {
+    border-color: #598b8f;
+    box-shadow: 0 0 5px #598b8f;
+}
+& h4{
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.response-box{
+    display: flex;
+    flex-direction: column;
+    border: none solid;
+    border-radius: 26px;
+    width: 400px;
+    min-height: 150px;
+    height: auto;
+    align-items: center;
+    background-color: rgb(95, 139, 139);
+} & h5{
+    margin-top: 15px;
+    color: #ffffff;
+} & #statusCheck{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+.button-box button{
+    width: 100px;
+    height: 40px ;
+    margin-bottom: 100px;
+    border-radius: 7px;
+    border: none ;
+    background-color:rgb(95, 139, 139);
+    color: #ffffff;
+};
